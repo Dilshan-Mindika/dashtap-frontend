@@ -1,0 +1,189 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #272A2D;
+    box-shadow: 0 4px 8px #347CCB(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section {
+    border: 1px solid #E6E4DC;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid#E6E4DC;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #E6E4DC;
+  }
+  
+  .vehicle-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .vehicle-options label {
+    display: block;
+    flex: 1 1 45%;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #347CCB;
+    color: #E6E4DC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn.edit {
+    background-color: #E6E4DC;
+    color: #272A2D;
+  }
+  
+  .btn.add {
+    background-color: #EB5B38;
+    
+  }
+  
+  .btn.submit {
+    background-color: #EB5B38;
+    width: 100%;
+  }
+  
+  .experience-options label {
+    margin-right: 15px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+   /* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #272A2D;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .section {
+    border: 1px solid #E6E4DC;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .two-column-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #E6E4DC;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #E6E4DC;
+  }
+  
+  .vehicle-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #347CCB;
+    color: #E6E4DC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn.edit {
+    background-color: #E6E4DC;
+    color: #272A2D;
+  }
+  
+  .btn.add {
+    background-color: #EB5B38;
+  }
+  
+  .btn.submit {
+    background-color: #EB5B38;
+    width: 100%;
+  }
+  
+  .experience-options {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .actions {
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .person-photo,
+  .driving-license,
+  .actions {
+    grid-column: span 2;
+  }
+   */
