@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import AdminHome from './components/AdminHome';
+import VehicleRequest from './components/VehicleRequest';
+import DriverRequest from './components/DriverRequest';
+import ApprovedVehicles from './components/ApprovedVehicles';
+import RejectedVehicles from './components/RejectedVehicles';
+import ApprovedDrivers from './components/ApprovedDrivers';
+import RejectedDrivers from './components/RejectedDrivers';
+import UserList from './components/AdminRegUsers';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+      <Route path="/" element={<AdminHome />} />
+        <Route path="/dashboard" element={<AdminHome />} />
+        <Route path="/vehicle-request" element={<VehicleRequest />} />
+        <Route path="/driver-request" element={<DriverRequest />} />
+        <Route path="/approved-vehicles" element={<ApprovedVehicles />} />
+        <Route path="/rejected-vehicles" element={<RejectedVehicles />} />
+        <Route path="/approved-drivers" element={<ApprovedDrivers />} />
+        <Route path="/rejected-drivers" element={<RejectedDrivers />} />
+        <Route path="/user-list" element={<UserList />} />
+      </Routes>
+    </Router>
   );
 }
 

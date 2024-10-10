@@ -1,0 +1,184 @@
+
+.admin-dashboard {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  .sidebar {
+    background-color: #272A2D;
+    color: #E6E4DC;
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .sidebar-logo {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #EB5B38;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 20px 0;
+  }
+  
+  .sidebar .nav-link {
+    text-decoration: none;
+    color: #E6E4DC;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #347CCB;
+    border-radius: 5px;
+  }
+  
+  .sidebar .nav-link.active {
+    background-color: #EB5B38;
+    color: white;
+    border-radius: 5px;
+  }
+
+  
+  
+  .main-content {
+    flex-grow: 1;
+    background-color: #E6E4DC;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-profile {
+    font-weight: bold;
+  }
+
+  .user-list-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-list-container h2 {
+    margin-bottom: 20px;
+  }
+  
+ 
+  .action-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .action-buttons button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  } 
+  
+  .active-btn {
+    background-color: #EB5B38;
+  }
+  
+  .inactive-btn {
+    background-color: #272A2D;
+  }
+  
+  .delete-btn {
+    background-color: #FF5733;
+  }
+  
+  .export-btn {
+    background-color: #347CCB;
+  }
+  
+  .action-buttons button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #272A2D;
+    color: white;
+  }
+  
+  .user-table td {
+    background-color: white;
+  }
+  
+  .user-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .status.active {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .status.inactive {
+    background-color: #ffcc00;
+    color: #272A2D;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .edit-btn {
+    background-color: #347CCB;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .delete-btn {
+    background-color: #EB5B38;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
