@@ -1,0 +1,73 @@
+.footer {
+    background: linear-gradient(to right, #494949, #a1a1a1);
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    width: 50px; 
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .footer-company {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contacts
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .footer-info {
+    margin-right: 500px;
+    text-align: center;
+  }
+  
+  .footer-info p {
+    margin: 5px 0;
+  }
+  
+  .footer-contact {
+    margin-right: 30px;
+  }
+  
+  .footer-socials a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .footer-socials a:hover {
+    color: #cfcfcf;
+  }
+  
+  .footer-socials i {
+    margin: 0 10px;
+  }
+  
+  /* Icons */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+  
